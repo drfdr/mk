@@ -8,12 +8,17 @@
 
 
 
-body{
-    margin:auto;
-    width:100%;
-    max-width: 900px;
-    animation-name:appear;
+html{
+  height:90%;  
+animation-name:appear;
     animation-duration:2s;
+    
+
+}
+
+body{
+    height:100%;
+
 }
 
 
@@ -33,7 +38,7 @@ h1{
 }
 
 h2{
-    font-family:"HNUL";
+    font-family:"Inconsolata";
     font-size:43px;
     letter-spacing:2;
     text-align: center;
@@ -89,8 +94,8 @@ h4{
 
 #main{
     width:90%;
-    max-width:800px;
-    height:90%;
+    max-width:500px;
+   height:100%;
     border-radius:55px;
     margin:auto;
     position:relative;
@@ -140,6 +145,7 @@ img{
     top:55px;
     width:99.5%;
     margin:auto;
+
     margin-bottom: 45px;
     height:100px;
      box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.5);
