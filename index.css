@@ -1,37 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:bold|Tangerine|Raleway:300|Inconsolata|Exo+2:200,100");
 
-@font-face{
-  font-family: "HNL";
-  src: url("res/fonts/HelveticaNeueLight.ttf");
-}
 
 @font-face{
   font-family: "HNUL";
   src: url("res/fonts/HelveticaNeueUltraLight.ttf");
 }
 
-@font-face{
-  font-family: "champ";
-  src: url("res/fonts/Champagne.ttf");
-}
-
-@font-face{
-  font-family: "lmlight";
-  src: url("res/fonts/LemonMilklight.otf");
-}
-
-@font-face{
-  font-family: "caviar";
-  src: url("res/fonts/caviar.ttf");
-}
-
-@font-face{
-  font-family: "Zapfino";
-  src: url("res/fonts/Zapfino.otf");
-}
 
 
 body{
+    margin:auto;
     max-width: 800px;
     animation-name:appear;
     animation-duration:2s;
