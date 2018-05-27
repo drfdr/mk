@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:bold|Tangerine|Raleway:300|Inconsolata|Exo+2:200,100");
+
+@font-face{
+  font-family: "HNL";
+  src: url("res/fonts/HelveticaNeueLight.ttf");
+}
+
+@font-face{
+  font-family: "HNUL";
+  src: url("res/fonts/HelveticaNeueUltraLight.ttf");
+}
+
+@font-face{
+  font-family: "champ";
+  src: url("res/fonts/Champagne.ttf");
+}
+
+@font-face{
+  font-family: "lmlight";
+  src: url("res/fonts/LemonMilklight.otf");
+}
+
+@font-face{
+  font-family: "caviar";
+  src: url("res/fonts/caviar.ttf");
+}
+
+@font-face{
+  font-family: "Zapfino";
+  src: url("res/fonts/Zapfino.otf");
+}
+
+
+body{
+    max-width: 800px;
+    animation-name:appear;
+    animation-duration:2s;
+}
+
+
+h1{
+    font-family:"HNUL";
+    letter-spacing:2;
+    font-size:30px;
+    text-align: center;
+    position: relative;
+    top:5px;
+    color:rgba(5,145,195,1);
+    text-shadow: 0px 1px 10px rgba(0,135,255,0.5);
+    animation-name: slowglow;
+    animation-duration: 5s;
+      animation-name:appear;
+    animation-duration:6s;
+}
+
+h2{
+    font-family:"HNUL";
+    font-size:43px;
+    letter-spacing:2;
+    text-align: center;
+    position: relative;
+    color:rgba(255,35,1,01);
+    text-shadow: 0px 0px 15px rgba(255,15,5,0);
+    animation-name: dateglow;
+    animation-duration: 3s;
+      animation-name:appear;
+    animation-duration:5s;
+
+   
+}
+
+h3{
+       font-family:"HNUL";
+    font-size:22px;
+    letter-spacing:2;
+    text-align: center;
+    position: relative;
+    top:-25px;
+    color:rgba(5,5,5,0.4);
+    text-shadow: 0px 1px 10px rgba(0,135,255,0);
+
+      animation-name:appear;
+    animation-duration:8s;
+    
+}
+
+h4{
+   font-family:"HNUL";
+    font-size:22px;
+    margin:2px;
+    letter-spacing:1;
+    color:rgba(255,35,1,01);
+    text-shadow: 0px 0px 15px rgba(255,15,5,0);
+    animation-name: dateglow;
+    animation-duration: 3s;  
+      animation-name:appear;
+    animation-duration:8s;
+}
+
+#title{
+    width:250px;
+    height:50px;
+    box-shadow:0px 0px 25px -5px rgba(0,0,0,1);
+    margin:auto;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-top:15px;
+    background-color:rgba(0,195,235,0.05);
+}
+
+#main{
+    width:90%;
+    max-width:500px;
+    height:90%;
+    border-radius:55px;
+    margin:auto;
+    position:relative;
+    margin-top:-39px;
+    box-shadow: inset 0px 0px 25px -5px rgba(0,0,0,1);
+   background-color: rgba(255,255,255,1);
+    
+}
+
+.time{
+     position: absolute;
+    border-radius:7px;
+    top:85px;
+    background-color:white;
+    left:5px;
+    box-shadow: 0px 0px 25px -5px black;
+
+}
+
+.countdown{
+
+  left:155px;
+  display:inline;
+    box-shadow: 0px 0px 15px -5px black;
+   
+}
+
+h6{
+   box-shadow: 0px 0px 15px -5px black;
+    font-family:"HNUL";
+    font-size:32px;
+
+    color:rgba(0,155,255,1);
+    display:inline-table;
+    
+    background-color:white;
+    
+}
+
+img{
+      animation-name:appear;
+    animation-duration:7s;
+}
+
+.event{
+    position: relative;
+    top:55px;
+    width:99.5%;
+    margin:auto;
+    margin-bottom: 45px;
+    height:100px;
+     box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.5);
+      animation-name:appear;
+    animation-duration:6s;
+    background-color: rgba(155,0,0,0.02)
+}
+
+.eventimg{
+    position:absolute;
+    right: 5px;
+    top:45px;
+    width:130px
+}
+
+@keyframes slowglow{
+    0% {text-shadow: 0px 1px 10px rgba(0,135,255,0)}
+    100% {text-shadow: 0px 1px 10px rgba(0,135,255,0.5)}
+}
+
+@keyframes shadowglow{
+      0% {box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.2)}
+   50% {box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.6)}
+   100% {box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.2)}
+}
+
+@keyframes dateglow{
+    0% {text-shadow: 0px 0px 15px rgba(255,15,5,0);}
+    50% {text-shadow: 0px 0px 15px rgba(255,15,5,0.4);}
+    100%{text-shadow: 0px 0px 15px rgba(255,15,5,0);}
+}
+
+@keyframes appear{
+    0%{opacity:0}
+    100%{opacity:1}
+}
